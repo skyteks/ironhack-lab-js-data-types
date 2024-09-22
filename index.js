@@ -49,7 +49,7 @@ console.log(result21);
 *******************************************/
 
 // Generate a random integer between 1 and 10 (inclusive)
-const result22 = Math.random(10) + 1;
+const result22 = Math.floor(Math.random() * 10 + 1);
 
 // Print the generated random number
 console.log(result22);
